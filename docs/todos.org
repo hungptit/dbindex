@@ -1,0 +1,20 @@
+* TODO A simple regex engine which can decompose a regex into a set of tries.
+
+* TODO A fast index class which can index a buffer/file using a given dictionary.
+  + [-] Requirements [50%]
+    - [X] Should be compartible with the reader classes.
+    - [ ] Must be performant.
+    - [ ] The memory usage must be minimum so we can handle very large files (~100GBytes).
+* TODO Very fast logic operation using SIMD
+  + [ ] and
+  + [ ] not
+  + [ ] or
+* TODO A fast way to serialize/deserialize the index data.
+** TODO What type of bit vector should we use?
+   + [ ] Using a sparse bit vector?
+   + [ ] Using a dense bit vector?
+** TODO 
+* Priority
+  + [ ] Make the engine work without regrex support.
+  + [ ] Be able to hook to codesearch engine.
+  + [ ] Optimize for performance and consider to use third party compressed bit vector implementation.
